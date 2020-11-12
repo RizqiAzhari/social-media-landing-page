@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,27 @@
     <title>Ninja Ken | Social Link</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <link rel="stylesheet" href="res/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CNN0FKPGB9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CNN0FKPGB9');
+    </script>
 </head>
+
 <body>
+    <aside>
+        <div class="warning-container">
+            <h2>Peringatan</h2>
+            <p>Belajar di Progate sangat mudah dan menyenangkan !</p>
+            <a href="#" onclick="goBack()">Kembali</a>
+            <a href="#" onclick="closeWarning()">Oke, lanjutkan !</a>
+        </div>
+    </aside>
     <header>
         <div class="profile-container">
             <img src="res/profile.png" alt="Foto profil" title="Ninja Ken">
@@ -37,4 +57,5 @@
     </footer>
     <script src="res/script.js"></script>
 </body>
+
 </html>
